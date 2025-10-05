@@ -1,0 +1,16 @@
+name: Email0 Step Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test Job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 21f3000401@ds.study.iitm.ac.in
+        run: echo "Hello, world! This step has my email address in its name."
